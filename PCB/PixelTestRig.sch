@@ -47,507 +47,558 @@ $EndDescr
 $Comp
 L RPi_GPIO J1
 U 1 1 5516AE26
-P 5000 2500
-F 0 "J1" H 5750 2750 60  0000 C CNN
-F 1 "RPi_GPIO" H 5750 2650 60  0000 C CNN
-F 2 "RPi_Hat:Pin_Header_Straight_2x20" H 5000 2500 60  0001 C CNN
-F 3 "" H 5000 2500 60  0000 C CNN
-	1    5000 2500
+P 4100 1950
+F 0 "J1" H 4850 2200 60  0000 C CNN
+F 1 "RPi_GPIO" H 4850 2100 60  0000 C CNN
+F 2 "RPi_Hat:Pin_Header_Straight_2x20" H 4100 1950 60  0001 C CNN
+F 3 "" H 4100 1950 60  0000 C CNN
+	1    4100 1950
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X04 P0
 U 1 1 5945246A
-P 3000 2000
-F 0 "P0" H 3000 2250 50  0000 C CNN
-F 1 "STRIP_OUT" V 3100 2000 50  0000 C CNN
-F 2 "w_conn_mpt:mpt_0,5%2f4-2,54" H 3000 2000 50  0001 C CNN
-F 3 "" H 3000 2000 50  0000 C CNN
-	1    3000 2000
+P 10250 1250
+F 0 "P0" H 10250 1500 50  0000 C CNN
+F 1 "STRIP_OUT" V 10350 1250 50  0000 C CNN
+F 2 "w_conn_mpt:mpt_0,5%2f4-2,54" H 10250 1250 50  0001 C CNN
+F 3 "" H 10250 1250 50  0000 C CNN
+	1    10250 1250
 	1    0    0    -1  
 $EndComp
-Text GLabel 8100 3800 0    31   Input ~ 0
+Text GLabel 6600 3350 0    31   Input ~ 0
 CLK
-Text GLabel 4800 3600 0    31   Input ~ 0
+Text GLabel 3900 3050 0    31   Input ~ 0
 CLK
-Text GLabel 4800 3400 0    31   Input ~ 0
+Text GLabel 3900 2850 0    31   Input ~ 0
 MOSI
-Text GLabel 6700 3000 2    31   Input ~ 0
+Text GLabel 5800 2450 2    31   Input ~ 0
 PWM_18
-Text GLabel 4800 4100 0    31   Input ~ 0
+Text GLabel 3900 3550 0    31   Input ~ 0
 PWM_13
-Text GLabel 9400 3250 2    31   Input ~ 0
+Text GLabel 7900 2800 2    31   Input ~ 0
 DATA_5V
 $Comp
 L 74AHC125 U1
 U 1 1 594534EA
-P 8750 3400
-F 0 "U1" H 8350 4100 50  0000 C CNN
-F 1 "74AHC125" H 9000 2700 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 8750 3400 60  0001 C CNN
-F 3 "" H 8750 3400 60  0000 C CNN
-	1    8750 3400
+P 7250 2950
+F 0 "U1" H 6850 3650 50  0000 C CNN
+F 1 "74AHC125" H 7500 2250 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 7250 2950 60  0001 C CNN
+F 3 "" H 7250 2950 60  0000 C CNN
+	1    7250 2950
 	1    0    0    -1  
 $EndComp
-Text GLabel 8100 3000 0    31   Input ~ 0
+Text GLabel 6600 2550 0    31   Input ~ 0
 GND
-Text GLabel 8100 3300 0    31   Input ~ 0
+Text GLabel 6600 2850 0    31   Input ~ 0
 GND
-Text GLabel 6700 2500 2    31   Input ~ 0
+Text GLabel 5800 1950 2    31   Input ~ 0
 5V
-Text GLabel 8100 3600 0    31   Input ~ 0
+Text GLabel 6600 3150 0    31   Input ~ 0
 5V
-Text GLabel 8100 3900 0    31   Input ~ 0
+Text GLabel 6600 3450 0    31   Input ~ 0
 5V
-Text GLabel 9400 2850 2    31   Input ~ 0
+Text GLabel 7900 2400 2    31   Input ~ 0
 5V
-Text GLabel 9400 3950 2    31   Input ~ 0
+Text GLabel 7900 3500 2    31   Input ~ 0
 GND
 $Comp
 L BARREL_JACK PWR1
 U 1 1 59453B45
-P 7600 5200
-F 0 "PWR1" H 7600 5450 50  0000 C CNN
-F 1 "BARREL_JACK" H 7600 5000 50  0000 C CNN
-F 2 "APM_BarrelJack:ML_BARREL_JACK_ROUND_PADS_SHORT" H 7600 5200 50  0001 C CNN
-F 3 "" H 7600 5200 50  0000 C CNN
-	1    7600 5200
+P 1900 3650
+F 0 "PWR1" H 1900 3900 50  0000 C CNN
+F 1 "BARREL_JACK" H 1900 3450 50  0000 C CNN
+F 2 "APM_BarrelJack:ML_BARREL_JACK_ROUND_PADS_SHORT" H 1900 3650 50  0001 C CNN
+F 3 "" H 1900 3650 50  0000 C CNN
+	1    1900 3650
 	1    0    0    -1  
 $EndComp
-Text GLabel 7900 5100 2    31   Input ~ 0
+Text GLabel 2200 3550 2    31   Input ~ 0
 PWR
-Text GLabel 7900 5300 2    31   Input ~ 0
+Text GLabel 2200 3750 2    31   Input ~ 0
 GND
-$Comp
-L CONN_01X02 PWR2
-U 1 1 59453D07
-P 8350 5200
-F 0 "PWR2" H 8350 5350 50  0000 C CNN
-F 1 "1x02" V 8450 5200 50  0000 C CNN
-F 2 "w_conn_mkds:mkds_1,5-2" H 8350 5200 50  0001 C CNN
-F 3 "" H 8350 5200 50  0000 C CNN
-	1    8350 5200
-	-1   0    0    1   
-$EndComp
-Text GLabel 8550 5150 2    31   Input ~ 0
-PWR
-Text GLabel 8550 5250 2    31   Input ~ 0
+Text GLabel 3900 3850 0    31   Input ~ 0
 GND
-Text GLabel 4800 4400 0    31   Input ~ 0
+Text GLabel 5800 2150 2    31   Input ~ 0
 GND
-Text GLabel 6700 2700 2    31   Input ~ 0
-GND
-Text GLabel 6700 2600 2    31   Input ~ 0
+Text GLabel 5800 2050 2    31   Input ~ 0
 5V
-Text GLabel 6700 3100 2    31   Input ~ 0
+Text GLabel 5800 2550 2    31   Input ~ 0
 GND
-Text GLabel 6700 3400 2    31   Input ~ 0
+Text GLabel 5800 2850 2    31   Input ~ 0
 GND
-Text GLabel 6700 3900 2    31   Input ~ 0
+Text GLabel 5800 3350 2    31   Input ~ 0
 GND
-Text GLabel 6700 4100 2    31   Input ~ 0
+Text GLabel 5800 3550 2    31   Input ~ 0
 GND
-Text GLabel 4800 2900 0    31   Input ~ 0
+Text GLabel 3900 2350 0    31   Input ~ 0
 GND
-Text GLabel 4800 3700 0    31   Input ~ 0
+Text GLabel 3900 3150 0    31   Input ~ 0
 GND
-NoConn ~ 4800 2500
-NoConn ~ 4800 3000
-NoConn ~ 4800 3200
-NoConn ~ 4800 3300
-NoConn ~ 4800 3500
-NoConn ~ 6700 2800
-NoConn ~ 6700 2900
-NoConn ~ 6700 3200
-NoConn ~ 6700 3500
-NoConn ~ 6700 3600
-NoConn ~ 6700 3800
-NoConn ~ 4800 3800
-NoConn ~ 4800 4200
-NoConn ~ 4800 4300
-NoConn ~ 6700 4400
-NoConn ~ 6700 4300
-NoConn ~ 6700 4000
-NoConn ~ 6700 4200
-NoConn ~ 6700 3300
-NoConn ~ 4800 3100
+NoConn ~ 3900 1950
+NoConn ~ 3900 2450
+NoConn ~ 3900 2650
+NoConn ~ 3900 2750
+NoConn ~ 3900 2950
+NoConn ~ 5800 2250
+NoConn ~ 5800 2350
+NoConn ~ 5800 2650
+NoConn ~ 5800 2950
+NoConn ~ 5800 3050
+NoConn ~ 5800 3250
+NoConn ~ 3900 3250
+NoConn ~ 3900 3650
+NoConn ~ 3900 3750
+NoConn ~ 5800 3850
+NoConn ~ 5800 3750
+NoConn ~ 5800 3450
+NoConn ~ 5800 3650
+NoConn ~ 5800 2750
+NoConn ~ 3900 2550
 $Comp
 L Q_NMOS_GDS Q3
 U 1 1 5A593472
-P 1800 4750
-F 0 "Q3" H 2000 4800 50  0000 L CNN
-F 1 "IRLB8721PBF" H 2000 4700 50  0000 L CNN
-F 2 "" H 2000 4850 50  0001 C CNN
-F 3 "" H 1800 4750 50  0001 C CNN
-	1    1800 4750
+P 9050 4000
+F 0 "Q3" H 9250 4050 50  0000 L CNN
+F 1 "IRLB8721PBF" H 9250 3950 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 9250 4100 50  0001 C CNN
+F 3 "" H 9050 4000 50  0001 C CNN
+	1    9050 4000
 	1    0    0    -1  
 $EndComp
-Text GLabel 1550 4750 0    31   Input ~ 0
-CTL_3
+Text GLabel 8600 4000 0    31   Input ~ 0
+CTL_2
 $Comp
 L R_Small R3
 U 1 1 5A593947
-P 1600 4850
-F 0 "R3" H 1630 4870 50  0000 L CNN
-F 1 "10k" H 1630 4810 50  0000 L CNN
-F 2 "" H 1600 4850 50  0001 C CNN
-F 3 "" H 1600 4850 50  0001 C CNN
-	1    1600 4850
+P 8850 4100
+F 0 "R3" H 8880 4120 50  0000 L CNN
+F 1 "10k" H 8880 4060 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 8850 4100 50  0001 C CNN
+F 3 "" H 8850 4100 50  0001 C CNN
+	1    8850 4100
 	1    0    0    -1  
 $EndComp
-Text GLabel 1600 4950 3    31   Input ~ 0
+Text GLabel 8850 4200 3    31   Input ~ 0
 GND
 $Comp
 L GND #PWR01
 U 1 1 5A593AA3
-P 7900 5400
-F 0 "#PWR01" H 7900 5150 50  0001 C CNN
-F 1 "GND" H 7900 5250 50  0000 C CNN
-F 2 "" H 7900 5400 50  0001 C CNN
-F 3 "" H 7900 5400 50  0001 C CNN
-	1    7900 5400
+P 2200 3850
+F 0 "#PWR01" H 2200 3600 50  0001 C CNN
+F 1 "GND" H 2200 3700 50  0000 C CNN
+F 2 "" H 2200 3850 50  0001 C CNN
+F 3 "" H 2200 3850 50  0001 C CNN
+	1    2200 3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR02
 U 1 1 5A593B92
-P 7950 5000
-F 0 "#PWR02" H 7950 4850 50  0001 C CNN
-F 1 "+5V" H 7950 5140 50  0000 C CNN
-F 2 "" H 7950 5000 50  0001 C CNN
-F 3 "" H 7950 5000 50  0001 C CNN
-	1    7950 5000
+P 2250 3450
+F 0 "#PWR02" H 2250 3300 50  0001 C CNN
+F 1 "+5V" H 2250 3590 50  0000 C CNN
+F 2 "" H 2250 3450 50  0001 C CNN
+F 3 "" H 2250 3450 50  0001 C CNN
+	1    2250 3450
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7900 5200 7900 5400
-Connection ~ 7900 5300
-Wire Wire Line
-	7900 5000 7900 5100
-Wire Wire Line
-	1550 4750 1600 4750
-Text GLabel 1900 4950 3    31   Input ~ 0
+Text GLabel 9150 4200 3    31   Input ~ 0
 GND
 $Comp
 L Q_NMOS_GDS Q2
 U 1 1 5A594230
-P 1800 3950
-F 0 "Q2" H 2000 4000 50  0000 L CNN
-F 1 "IRLB8721PBF" H 2000 3900 50  0000 L CNN
-F 2 "" H 2000 4050 50  0001 C CNN
-F 3 "" H 1800 3950 50  0001 C CNN
-	1    1800 3950
+P 9050 3200
+F 0 "Q2" H 9250 3250 50  0000 L CNN
+F 1 "IRLB8721PBF" H 9250 3150 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 9250 3300 50  0001 C CNN
+F 3 "" H 9050 3200 50  0001 C CNN
+	1    9050 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 1550 3950 0    31   Input ~ 0
-CTL_2
+Text GLabel 8600 3200 0    31   Input ~ 0
+CTL_3
 $Comp
 L R_Small R2
 U 1 1 5A594237
-P 1600 4050
-F 0 "R2" H 1630 4070 50  0000 L CNN
-F 1 "10k" H 1630 4010 50  0000 L CNN
-F 2 "" H 1600 4050 50  0001 C CNN
-F 3 "" H 1600 4050 50  0001 C CNN
-	1    1600 4050
+P 8850 3300
+F 0 "R2" H 8880 3320 50  0000 L CNN
+F 1 "10k" H 8880 3260 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 8850 3300 50  0001 C CNN
+F 3 "" H 8850 3300 50  0001 C CNN
+	1    8850 3300
 	1    0    0    -1  
 $EndComp
-Text GLabel 1600 4150 3    31   Input ~ 0
+Text GLabel 8850 3400 3    31   Input ~ 0
 GND
-Wire Wire Line
-	1550 3950 1600 3950
-Text GLabel 1900 4150 3    31   Input ~ 0
+Text GLabel 9150 3400 3    31   Input ~ 0
 GND
 $Comp
 L Q_NMOS_GDS Q5
 U 1 1 5A5944A1
-P 1800 6350
-F 0 "Q5" H 2000 6400 50  0000 L CNN
-F 1 "IRLB8721PBF" H 2000 6300 50  0000 L CNN
-F 2 "" H 2000 6450 50  0001 C CNN
-F 3 "" H 1800 6350 50  0001 C CNN
-	1    1800 6350
+P 9050 5600
+F 0 "Q5" H 9250 5650 50  0000 L CNN
+F 1 "IRLB8721PBF" H 9250 5550 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 9250 5700 50  0001 C CNN
+F 3 "" H 9050 5600 50  0001 C CNN
+	1    9050 5600
 	1    0    0    -1  
 $EndComp
-Text GLabel 1550 6350 0    31   Input ~ 0
-CTL_5
+Text GLabel 8600 5600 0    31   Input ~ 0
+CTL_0
 $Comp
 L R_Small R5
 U 1 1 5A5944A8
-P 1600 6450
-F 0 "R5" H 1630 6470 50  0000 L CNN
-F 1 "10k" H 1630 6410 50  0000 L CNN
-F 2 "" H 1600 6450 50  0001 C CNN
-F 3 "" H 1600 6450 50  0001 C CNN
-	1    1600 6450
+P 8850 5700
+F 0 "R5" H 8880 5720 50  0000 L CNN
+F 1 "10k" H 8880 5660 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 8850 5700 50  0001 C CNN
+F 3 "" H 8850 5700 50  0001 C CNN
+	1    8850 5700
 	1    0    0    -1  
 $EndComp
-Text GLabel 1600 6550 3    31   Input ~ 0
+Text GLabel 8850 5800 3    31   Input ~ 0
 GND
-Wire Wire Line
-	1550 6350 1600 6350
-Text GLabel 1900 6550 3    31   Input ~ 0
+Text GLabel 9150 5800 3    31   Input ~ 0
 GND
 $Comp
 L Q_NMOS_GDS Q4
 U 1 1 5A5944B2
-P 1800 5550
-F 0 "Q4" H 2000 5600 50  0000 L CNN
-F 1 "IRLB8721PBF" H 2000 5500 50  0000 L CNN
-F 2 "" H 2000 5650 50  0001 C CNN
-F 3 "" H 1800 5550 50  0001 C CNN
-	1    1800 5550
+P 9050 4800
+F 0 "Q4" H 9250 4850 50  0000 L CNN
+F 1 "IRLB8721PBF" H 9250 4750 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 9250 4900 50  0001 C CNN
+F 3 "" H 9050 4800 50  0001 C CNN
+	1    9050 4800
 	1    0    0    -1  
 $EndComp
-Text GLabel 1550 5550 0    31   Input ~ 0
-CTL_4
+Text GLabel 8600 4800 0    31   Input ~ 0
+CTL_1
 $Comp
 L R_Small R4
 U 1 1 5A5944B9
-P 1600 5650
-F 0 "R4" H 1630 5670 50  0000 L CNN
-F 1 "10k" H 1630 5610 50  0000 L CNN
-F 2 "" H 1600 5650 50  0001 C CNN
-F 3 "" H 1600 5650 50  0001 C CNN
-	1    1600 5650
+P 8850 4900
+F 0 "R4" H 8880 4920 50  0000 L CNN
+F 1 "10k" H 8880 4860 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 8850 4900 50  0001 C CNN
+F 3 "" H 8850 4900 50  0001 C CNN
+	1    8850 4900
 	1    0    0    -1  
 $EndComp
-Text GLabel 1600 5750 3    31   Input ~ 0
+Text GLabel 8850 5000 3    31   Input ~ 0
 GND
-Wire Wire Line
-	1550 5550 1600 5550
-Text GLabel 1900 5750 3    31   Input ~ 0
+Text GLabel 9150 5000 3    31   Input ~ 0
 GND
 $Comp
 L Q_NMOS_GDS Q1
 U 1 1 5A5945D7
-P 1800 3150
-F 0 "Q1" H 2000 3200 50  0000 L CNN
-F 1 "IRLB8721PBF" H 2000 3100 50  0000 L CNN
-F 2 "" H 2000 3250 50  0001 C CNN
-F 3 "" H 1800 3150 50  0001 C CNN
-	1    1800 3150
+P 9050 2400
+F 0 "Q1" H 9250 2450 50  0000 L CNN
+F 1 "IRLB8721PBF" H 9250 2350 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 9250 2500 50  0001 C CNN
+F 3 "" H 9050 2400 50  0001 C CNN
+	1    9050 2400
 	1    0    0    -1  
 $EndComp
-Text GLabel 1550 3150 0    31   Input ~ 0
-CTL_1
+Text GLabel 8600 2400 0    31   Input ~ 0
+CTL_4
 $Comp
 L R_Small R1
 U 1 1 5A5945DE
-P 1600 3250
-F 0 "R1" H 1630 3270 50  0000 L CNN
-F 1 "10k" H 1630 3210 50  0000 L CNN
-F 2 "" H 1600 3250 50  0001 C CNN
-F 3 "" H 1600 3250 50  0001 C CNN
-	1    1600 3250
+P 8850 2500
+F 0 "R1" H 8880 2520 50  0000 L CNN
+F 1 "10k" H 8880 2460 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 8850 2500 50  0001 C CNN
+F 3 "" H 8850 2500 50  0001 C CNN
+	1    8850 2500
 	1    0    0    -1  
 $EndComp
-Text GLabel 1600 3350 3    31   Input ~ 0
+Text GLabel 8850 2600 3    31   Input ~ 0
 GND
-Wire Wire Line
-	1550 3150 1600 3150
-Text GLabel 1900 3350 3    31   Input ~ 0
+Text GLabel 9150 2600 3    31   Input ~ 0
 GND
 $Comp
 L Q_NMOS_GDS Q0
 U 1 1 5A5945E8
-P 1800 2350
-F 0 "Q0" H 2000 2400 50  0000 L CNN
-F 1 "IRLB8721PBF" H 2000 2300 50  0000 L CNN
-F 2 "" H 2000 2450 50  0001 C CNN
-F 3 "" H 1800 2350 50  0001 C CNN
-	1    1800 2350
+P 9050 1600
+F 0 "Q0" H 9250 1650 50  0000 L CNN
+F 1 "IRLB8721PBF" H 9250 1550 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 9250 1700 50  0001 C CNN
+F 3 "" H 9050 1600 50  0001 C CNN
+	1    9050 1600
 	1    0    0    -1  
 $EndComp
-Text GLabel 1550 2350 0    31   Input ~ 0
-CTL_0
+Text GLabel 8600 1600 0    31   Input ~ 0
+CTL_5
 $Comp
 L R_Small R0
 U 1 1 5A5945EF
-P 1600 2450
-F 0 "R0" H 1630 2470 50  0000 L CNN
-F 1 "10k" H 1630 2410 50  0000 L CNN
-F 2 "" H 1600 2450 50  0001 C CNN
-F 3 "" H 1600 2450 50  0001 C CNN
-	1    1600 2450
+P 8850 1700
+F 0 "R0" H 8880 1720 50  0000 L CNN
+F 1 "10k" H 8880 1660 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 8850 1700 50  0001 C CNN
+F 3 "" H 8850 1700 50  0001 C CNN
+	1    8850 1700
 	1    0    0    -1  
 $EndComp
-Text GLabel 1600 2550 3    31   Input ~ 0
+Text GLabel 8850 1800 3    31   Input ~ 0
 GND
-Wire Wire Line
-	1550 2350 1600 2350
-Text GLabel 1900 2550 3    31   Input ~ 0
+Text GLabel 9150 1800 3    31   Input ~ 0
 GND
-Text GLabel 4650 2600 0    31   Input ~ 0
+Text GLabel 3750 2050 0    31   Input ~ 0
 CTL_0
-Text GLabel 4650 2700 0    31   Input ~ 0
+Text GLabel 3750 2150 0    31   Input ~ 0
 CTL_1
-Text GLabel 4650 2800 0    31   Input ~ 0
+Text GLabel 3750 2250 0    31   Input ~ 0
 CTL_2
-Text GLabel 4650 3900 0    31   Input ~ 0
+Text GLabel 3750 3350 0    31   Input ~ 0
 CTL_3
-Text GLabel 4650 4000 0    31   Input ~ 0
+Text GLabel 3750 3450 0    31   Input ~ 0
 CTL_4
-Text GLabel 6850 3700 2    31   Input ~ 0
+Text GLabel 5950 3150 2    31   Input ~ 0
 CTL_5
-Wire Wire Line
-	4650 2600 4800 2600
-Wire Wire Line
-	4800 2700 4650 2700
-Wire Wire Line
-	4650 2800 4800 2800
-Wire Wire Line
-	4650 3900 4800 3900
-Wire Wire Line
-	4800 4000 4650 4000
-Wire Wire Line
-	6700 3700 6850 3700
-Text GLabel 9400 3550 2    31   Input ~ 0
+Text GLabel 7900 3100 2    31   Input ~ 0
 CLK_5V
-Text GLabel 8100 2900 0    31   Input ~ 0
+Text GLabel 6600 2450 0    31   Input ~ 0
 MOSI
-Text GLabel 8100 3200 0    31   Input ~ 0
+Text GLabel 6600 2750 0    31   Input ~ 0
 PWM_18
-Text GLabel 8100 3500 0    31   Input ~ 0
+Text GLabel 6600 3050 0    31   Input ~ 0
 PWM_13
-Text GLabel 9400 3350 2    31   Input ~ 0
+Text GLabel 7900 2900 2    31   Input ~ 0
 DATA_5V
-Text GLabel 9400 3450 2    31   Input ~ 0
+Text GLabel 7900 3000 2    31   Input ~ 0
 DATA_5V
 $Comp
 L CONN_01X04 P6
 U 1 1 5A597C14
-P 6850 1500
-F 0 "P6" H 6850 1750 50  0000 C CNN
-F 1 "APM_INPUT" V 6950 1500 50  0000 C CNN
-F 2 "w_conn_mpt:mpt_0,5%2f4-2,54" H 6850 1500 50  0001 C CNN
-F 3 "" H 6850 1500 50  0000 C CNN
-	1    6850 1500
+P 2050 2150
+F 0 "P6" H 2050 2400 50  0000 C CNN
+F 1 "APM_INPUT" V 2150 2150 50  0000 C CNN
+F 2 "w_conn_mpt:mpt_0,5%2f4-2,54" H 2050 2150 50  0001 C CNN
+F 3 "" H 2050 2150 50  0000 C CNN
+	1    2050 2150
 	-1   0    0    1   
 $EndComp
-NoConn ~ 7050 1350
-Text GLabel 7050 1650 2    31   Input ~ 0
+NoConn ~ 2250 2000
+Text GLabel 2250 2300 2    31   Input ~ 0
 GND
-Text GLabel 7050 1550 2    31   Input ~ 0
+Text GLabel 2250 2200 2    31   Input ~ 0
 CLK_5V
-Text GLabel 7050 1450 2    31   Input ~ 0
+Text GLabel 2250 2100 2    31   Input ~ 0
 DATA_5V
-Text GLabel 2800 1950 0    31   Input ~ 0
+Text GLabel 10050 1200 0    31   Input ~ 0
 DATA_5V
-Text GLabel 2800 2050 0    31   Input ~ 0
+Text GLabel 10050 1300 0    31   Input ~ 0
 CLK_5V
 $Comp
 L CONN_01X04 P1
 U 1 1 5A598C84
-P 3000 2800
-F 0 "P1" H 3000 3050 50  0000 C CNN
-F 1 "STRIP_OUT" V 3100 2800 50  0000 C CNN
-F 2 "w_conn_mpt:mpt_0,5%2f4-2,54" H 3000 2800 50  0001 C CNN
-F 3 "" H 3000 2800 50  0000 C CNN
-	1    3000 2800
+P 10250 2050
+F 0 "P1" H 10250 2300 50  0000 C CNN
+F 1 "STRIP_OUT" V 10350 2050 50  0000 C CNN
+F 2 "w_conn_mpt:mpt_0,5%2f4-2,54" H 10250 2050 50  0001 C CNN
+F 3 "" H 10250 2050 50  0000 C CNN
+	1    10250 2050
 	1    0    0    -1  
 $EndComp
-Text GLabel 2800 2750 0    31   Input ~ 0
+Text GLabel 10050 2000 0    31   Input ~ 0
 DATA_5V
-Text GLabel 2800 2850 0    31   Input ~ 0
+Text GLabel 10050 2100 0    31   Input ~ 0
 CLK_5V
 $Comp
 L CONN_01X04 P2
 U 1 1 5A598CD3
-P 3000 3600
-F 0 "P2" H 3000 3850 50  0000 C CNN
-F 1 "STRIP_OUT" V 3100 3600 50  0000 C CNN
-F 2 "w_conn_mpt:mpt_0,5%2f4-2,54" H 3000 3600 50  0001 C CNN
-F 3 "" H 3000 3600 50  0000 C CNN
-	1    3000 3600
+P 10250 2850
+F 0 "P2" H 10250 3100 50  0000 C CNN
+F 1 "STRIP_OUT" V 10350 2850 50  0000 C CNN
+F 2 "w_conn_mpt:mpt_0,5%2f4-2,54" H 10250 2850 50  0001 C CNN
+F 3 "" H 10250 2850 50  0000 C CNN
+	1    10250 2850
 	1    0    0    -1  
 $EndComp
-Text GLabel 2800 3450 0    31   Input ~ 0
+Text GLabel 10050 2700 0    31   Input ~ 0
 PWR
-Text GLabel 2800 3550 0    31   Input ~ 0
+Text GLabel 10050 2800 0    31   Input ~ 0
 DATA_5V
-Text GLabel 2800 3650 0    31   Input ~ 0
+Text GLabel 10050 2900 0    31   Input ~ 0
 CLK_5V
 $Comp
 L CONN_01X04 P3
 U 1 1 5A598E9C
-P 3000 4400
-F 0 "P3" H 3000 4650 50  0000 C CNN
-F 1 "STRIP_OUT" V 3100 4400 50  0000 C CNN
-F 2 "w_conn_mpt:mpt_0,5%2f4-2,54" H 3000 4400 50  0001 C CNN
-F 3 "" H 3000 4400 50  0000 C CNN
-	1    3000 4400
+P 10250 3650
+F 0 "P3" H 10250 3900 50  0000 C CNN
+F 1 "STRIP_OUT" V 10350 3650 50  0000 C CNN
+F 2 "w_conn_mpt:mpt_0,5%2f4-2,54" H 10250 3650 50  0001 C CNN
+F 3 "" H 10250 3650 50  0000 C CNN
+	1    10250 3650
 	1    0    0    -1  
 $EndComp
-Text GLabel 2800 4250 0    31   Input ~ 0
+Text GLabel 10050 3500 0    31   Input ~ 0
 PWR
-Text GLabel 2800 4350 0    31   Input ~ 0
+Text GLabel 10050 3600 0    31   Input ~ 0
 DATA_5V
-Text GLabel 2800 4450 0    31   Input ~ 0
+Text GLabel 10050 3700 0    31   Input ~ 0
 CLK_5V
 $Comp
 L CONN_01X04 P4
 U 1 1 5A598EE3
-P 3000 5200
-F 0 "P4" H 3000 5450 50  0000 C CNN
-F 1 "STRIP_OUT" V 3100 5200 50  0000 C CNN
-F 2 "w_conn_mpt:mpt_0,5%2f4-2,54" H 3000 5200 50  0001 C CNN
-F 3 "" H 3000 5200 50  0000 C CNN
-	1    3000 5200
+P 10250 4450
+F 0 "P4" H 10250 4700 50  0000 C CNN
+F 1 "STRIP_OUT" V 10350 4450 50  0000 C CNN
+F 2 "w_conn_mpt:mpt_0,5%2f4-2,54" H 10250 4450 50  0001 C CNN
+F 3 "" H 10250 4450 50  0000 C CNN
+	1    10250 4450
 	1    0    0    -1  
 $EndComp
-Text GLabel 2800 5050 0    31   Input ~ 0
+Text GLabel 10050 4300 0    31   Input ~ 0
 PWR
-Text GLabel 2800 5150 0    31   Input ~ 0
+Text GLabel 10050 4400 0    31   Input ~ 0
 DATA_5V
-Text GLabel 2800 5250 0    31   Input ~ 0
+Text GLabel 10050 4500 0    31   Input ~ 0
 CLK_5V
 $Comp
 L CONN_01X04 P5
 U 1 1 5A598FDE
-P 3000 6000
-F 0 "P5" H 3000 6250 50  0000 C CNN
-F 1 "STRIP_OUT" V 3100 6000 50  0000 C CNN
-F 2 "w_conn_mpt:mpt_0,5%2f4-2,54" H 3000 6000 50  0001 C CNN
-F 3 "" H 3000 6000 50  0000 C CNN
-	1    3000 6000
+P 10250 5250
+F 0 "P5" H 10250 5500 50  0000 C CNN
+F 1 "STRIP_OUT" V 10350 5250 50  0000 C CNN
+F 2 "w_conn_mpt:mpt_0,5%2f4-2,54" H 10250 5250 50  0001 C CNN
+F 3 "" H 10250 5250 50  0000 C CNN
+	1    10250 5250
 	1    0    0    -1  
 $EndComp
-Text GLabel 2800 5850 0    31   Input ~ 0
+Text GLabel 10050 5100 0    31   Input ~ 0
 PWR
-Text GLabel 2800 5950 0    31   Input ~ 0
+Text GLabel 10050 5200 0    31   Input ~ 0
 DATA_5V
-Text GLabel 2800 6050 0    31   Input ~ 0
+Text GLabel 10050 5300 0    31   Input ~ 0
 CLK_5V
-Text GLabel 2800 2650 0    31   Input ~ 0
+Text GLabel 10050 1900 0    31   Input ~ 0
 PWR
-Text GLabel 2800 1850 0    31   Input ~ 0
+Text GLabel 10050 1100 0    31   Input ~ 0
 PWR
-Wire Wire Line
-	1900 6150 2800 6150
-Wire Wire Line
-	1900 5350 2800 5350
-Wire Wire Line
-	1900 4550 2800 4550
-Wire Wire Line
-	1900 3750 2800 3750
-Wire Wire Line
-	1900 2950 2800 2950
-Wire Wire Line
-	1900 2150 2800 2150
 $Comp
 L GS2 J2
 U 1 1 5A59EC52
-P 7900 4800
-F 0 "J2" H 8000 4950 50  0000 C CNN
-F 1 "GS2" H 8000 4651 50  0000 C CNN
-F 2 "Connectors:GS2" V 7974 4800 50  0001 C CNN
-F 3 "" H 7900 4800 50  0001 C CNN
-	1    7900 4800
+P 2200 3250
+F 0 "J2" H 2300 3400 50  0000 C CNN
+F 1 "GS2" H 2300 3101 50  0000 C CNN
+F 2 "Connectors:GS2" V 2274 3250 50  0001 C CNN
+F 3 "" H 2200 3250 50  0001 C CNN
+	1    2200 3250
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	7900 5000 7950 5000
-Text GLabel 7900 4600 1    31   Input ~ 0
+Text GLabel 2200 3050 1    31   Input ~ 0
 5V
+$Comp
+L R_Small R6
+U 1 1 5A5A223C
+P 8700 1600
+F 0 "R6" H 8730 1620 50  0000 L CNN
+F 1 "220R" H 8730 1560 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 8700 1600 50  0001 C CNN
+F 3 "" H 8700 1600 50  0001 C CNN
+	1    8700 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R7
+U 1 1 5A5A2384
+P 8700 2400
+F 0 "R7" H 8730 2420 50  0000 L CNN
+F 1 "220R" H 8730 2360 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 8700 2400 50  0001 C CNN
+F 3 "" H 8700 2400 50  0001 C CNN
+	1    8700 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R8
+U 1 1 5A5A26CA
+P 8700 3200
+F 0 "R8" H 8730 3220 50  0000 L CNN
+F 1 "220R" H 8730 3160 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 8700 3200 50  0001 C CNN
+F 3 "" H 8700 3200 50  0001 C CNN
+	1    8700 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R9
+U 1 1 5A5A2CB3
+P 8700 4000
+F 0 "R9" H 8730 4020 50  0000 L CNN
+F 1 "220R" H 8730 3960 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 8700 4000 50  0001 C CNN
+F 3 "" H 8700 4000 50  0001 C CNN
+	1    8700 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R10
+U 1 1 5A5A34E5
+P 8700 4800
+F 0 "R10" H 8730 4820 50  0000 L CNN
+F 1 "220R" H 8730 4760 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 8700 4800 50  0001 C CNN
+F 3 "" H 8700 4800 50  0001 C CNN
+	1    8700 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R11
+U 1 1 5A5A3AD2
+P 8700 5600
+F 0 "R11" H 8730 5620 50  0000 L CNN
+F 1 "220R" H 8730 5560 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 8700 5600 50  0001 C CNN
+F 3 "" H 8700 5600 50  0001 C CNN
+	1    8700 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 3650 2200 3850
+Connection ~ 2200 3750
+Wire Wire Line
+	2200 3450 2200 3550
+Wire Wire Line
+	8800 4000 8850 4000
+Wire Wire Line
+	8800 3200 8850 3200
+Wire Wire Line
+	8800 5600 8850 5600
+Wire Wire Line
+	8800 4800 8850 4800
+Wire Wire Line
+	8800 2400 8850 2400
+Wire Wire Line
+	8800 1600 8850 1600
+Wire Wire Line
+	3750 2050 3900 2050
+Wire Wire Line
+	3900 2150 3750 2150
+Wire Wire Line
+	3750 2250 3900 2250
+Wire Wire Line
+	3750 3350 3900 3350
+Wire Wire Line
+	3900 3450 3750 3450
+Wire Wire Line
+	5800 3150 5950 3150
+Wire Wire Line
+	9150 5400 10050 5400
+Wire Wire Line
+	9150 4600 10050 4600
+Wire Wire Line
+	9150 3800 10050 3800
+Wire Wire Line
+	9150 3000 10050 3000
+Wire Wire Line
+	9150 2200 10050 2200
+Wire Wire Line
+	9150 1400 10050 1400
+Wire Wire Line
+	2200 3450 2250 3450
 $EndSCHEMATC
