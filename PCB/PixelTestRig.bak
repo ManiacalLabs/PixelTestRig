@@ -168,7 +168,7 @@ F 3 "" H 9050 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8600 4000 0    31   Input ~ 0
-CTL_3
+CTL_2
 $Comp
 L R_Small R3
 U 1 1 5A593947
@@ -218,7 +218,7 @@ F 3 "" H 9050 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8600 3200 0    31   Input ~ 0
-CTL_2
+CTL_3
 $Comp
 L R_Small R2
 U 1 1 5A594237
@@ -246,7 +246,7 @@ F 3 "" H 9050 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8600 5600 0    31   Input ~ 0
-CTL_5
+CTL_0
 $Comp
 L R_Small R5
 U 1 1 5A5944A8
@@ -274,7 +274,7 @@ F 3 "" H 9050 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8600 4800 0    31   Input ~ 0
-CTL_4
+CTL_1
 $Comp
 L R_Small R4
 U 1 1 5A5944B9
@@ -302,7 +302,7 @@ F 3 "" H 9050 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8600 2400 0    31   Input ~ 0
-CTL_1
+CTL_4
 $Comp
 L R_Small R1
 U 1 1 5A5945DE
@@ -330,7 +330,7 @@ F 3 "" H 9050 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8600 1600 0    31   Input ~ 0
-CTL_0
+CTL_5
 $Comp
 L R_Small R0
 U 1 1 5A5945EF
